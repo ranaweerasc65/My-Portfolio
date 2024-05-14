@@ -515,6 +515,14 @@ span{
     border: .2rem solid var(--main-color);
     border-radius: .6rem;
     padding: 0.2rem 1.5rem;
+    
+    flex: 1 1 30rem;
+    transition: .5s ease;
+}
+
+.skillsbox .skills-content:hover{
+    border-color: var(--main-color);
+    transform: scale(1.02);
 }
 
 .semi-skillsbox {
@@ -550,19 +558,8 @@ span{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
+    
 }
-
-/* Styles for certification list */
-.certifications-list {
-    margin-top: 1rem;
-}
-
-.certifications-list li {
-    font-size: 1.6rem;
-    list-style-type: disc;
-    margin-left: 2rem;
-}
-
 
 
 
